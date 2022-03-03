@@ -4,17 +4,20 @@ import Document, {
     Main,
     NextScript,
   } from 'next/document'
-  import { ServerStyleSheet } from 'styled-components'
+import React from 'react'
+import { ColorModeScript } from '@chakra-ui/react'
+import theme from '@uikit/theme';
+import { ServerStyleSheet } from 'styled-components'
   
   class MyDocument extends Document {
-    static async getInitialProps(ctx) {
+    static async getInitialProps(ctx: any) {
       const sheet = new ServerStyleSheet()
       const originalRenderPage = ctx.renderPage
   
       try {
         ctx.renderPage = () =>
           originalRenderPage({
-            enhanceApp: (App) => (props) =>
+            enhanceApp: (App: typeof React.Component) => (props: JSX.IntrinsicAttributes) =>
               sheet.collectStyles(<App {...props} />),
           })
   
@@ -40,6 +43,7 @@ import Document, {
           <Head>
           </Head>
           <body>
+            <ColorModeScript initialColorMode={theme.config.initialColorMode} />
             <Main />
             <NextScript />
           </body>
