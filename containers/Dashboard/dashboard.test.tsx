@@ -3,8 +3,8 @@ import { DashboardContainer } from './index'
 
 afterEach(cleanup);
 
-describe('Home', () => {
-  it('renders a heading', () => {
+describe('Dashboard', () => {
+  it('renders a heading for Dashboard container', () => {
     render(<DashboardContainer />)
 
     const queryResult = screen.getAllByTestId('dashboardContainer');
