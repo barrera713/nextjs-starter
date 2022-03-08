@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
 
-export const HeaderStyles = styled.div`
+export const ProductStyles = styled.div`
 
 `
