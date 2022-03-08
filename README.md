@@ -1,13 +1,16 @@
-## Striveboxx
-A simple way to manage your finances and plan your montly budget without linking your bank account.
+## Nextjs-starter
+A simple Nextjs template with additional tools.
+- Chakra-ui
+- Styled-components
+- Jest
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
-npm run dev
-# or
+yarn install
+# then
 yarn dev
 ```
 
