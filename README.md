@@ -1,8 +1,8 @@
 ## Nextjs-starter
-A simple Nextjs template with additional tools.
+A simple Nextjs template with additional tools!
 - Chakra-ui
 - Styled-components
-- Jest
+- Jest configured && example tests
 
 ## Getting Started
 
