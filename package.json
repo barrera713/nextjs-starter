@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@chakra-ui/react": "^1.8.6",
+    "@chakra-ui/react": "^2.2.8",
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
     "@next/eslint-plugin-next": "^12.1.0",
