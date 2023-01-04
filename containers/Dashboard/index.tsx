@@ -12,12 +12,8 @@ export const DashboardContainer: React.FC<DashboardContainerProps> = (props) => 
     <DashboardStyles>
       <main data-testid="dashboardContainer">
       <h1>
-        Nerd alert.
+        Hello, nerds :)
       </h1>
-      
-      <p>
-        <code>pages/index.tsx</code>
-      </p>
       </main>
     </DashboardStyles>
   )
